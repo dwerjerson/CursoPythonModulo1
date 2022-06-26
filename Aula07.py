@@ -40,4 +40,3 @@ print(
     f"O resto da divisão de {n1} por {n2} é : {restodivisao:.0f}\n"
     f"E o valor da expressão numérica {n1} + {n2} * {n1} / ({n1} + {n1} - ({n2} + 1)) ** 2 é : {exprecao:.3f}"
 )
-
