@@ -2,13 +2,13 @@
 
 # Centralizar string utilizar ":^20"
 # orientar a esquerda utilizar ":<30" ou a direita ":>40"
+
+nome = input("Digite um nome: ").title()
+print(f'Seja bem vindo {nome:=^20}')
 # formatar casas decimais utilizar ":.2f" para formatar 2 casas decimais.
 # pular uma linha utilizar "/n"
 # para voltar uma linha utilizar |=end""|
 # DwkS
-
-nome = input("Digite um nome: ").title()
-print(f'Seja bem vindo {nome:=^20}')
 
 # Operadores aritiméticos por ordem de precedência.
 # () parenteses {Tudo será resolvido primeiro dentro dos parenteses}
@@ -17,7 +17,6 @@ print(f'Seja bem vindo {nome:=^20}')
 # // divisão inteira
 # * multiplicação / divisão
 # + soma - subração
-
 
 n1 = input("Digite o primeiro número: ")
 n2 = input("Ditite o segundo número: ")
@@ -42,5 +41,4 @@ print(
     f"A potenciação de {n1} elevado a {n2} é: {potenciacao}\n"
     f"A divisão inteira de {n1} por {n2} é: {divisaoInteira:.0f}\n"
     f"O resto da divisão de {n1} por {n2} é : {restodivisao:.0f}\n"
-    f"E o valor da expressão numérica {n1} + {n2} * {n1} / ({n1} + {n1} - ({n2} + 1)) ** 2 é : {exprecao:.3f}"
-)
+    f"E o valor da expressão numérica {n1} + {n2} * {n1} / ({n1} + {n1} - ({n2} + 1)) ** 2 é : {exprecao:.3f}")
