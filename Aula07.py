@@ -3,6 +3,7 @@
 # formatar casas decimais utilizar ":.2f" para formatar 2 casas decimais.
 # pular uma linha utilizar "/n"
 # para voltar uma linha utilizar |=end""|
+# DwkS
 
 nome = input("Digite um nome: ").title()
 print(f'Seja bem vindo {nome:=^20}')
