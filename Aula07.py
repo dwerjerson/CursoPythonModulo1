@@ -1,10 +1,12 @@
 # Operadores Aritiméticos
+# Exercícios 01-02-03-04-05
 
 # Centralizar string utilizar ":^20"
 # orientar a esquerda utilizar ":<30" ou a direita ":>40"
 
 nome = input("Digite um nome: ").title()
 print(f'Seja bem vindo {nome:=^20}')
+
 # formatar casas decimais utilizar ":.2f" para formatar 2 casas decimais.
 # pular uma linha utilizar "/n"
 # para voltar uma linha utilizar |=end""|
