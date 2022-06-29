@@ -1,3 +1,5 @@
+# Operadores Aritiméticos
+
 # Centralizar string utilizar ":^20"
 # orientar a esquerda utilizar ":<30" ou a direita ":>40"
 # formatar casas decimais utilizar ":.2f" para formatar 2 casas decimais.
