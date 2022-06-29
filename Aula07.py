@@ -5,6 +5,7 @@
 
 nome = input("Digite um nome: ").title()
 print(f'Seja bem vindo {nome:=^20}')
+
 # formatar casas decimais utilizar ":.2f" para formatar 2 casas decimais.
 # pular uma linha utilizar "/n"
 # para voltar uma linha utilizar |=end""|
